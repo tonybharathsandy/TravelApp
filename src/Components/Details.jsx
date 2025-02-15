@@ -1,11 +1,17 @@
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 function Details() {
   let { name } = useParams();
   let data = useSelector((store) => store.reduxData);
-  let places = data.destinations;
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  let places = data.destinations;
+  
   let result = places.filter((value) => value.name === name);
   console.log(result);
 

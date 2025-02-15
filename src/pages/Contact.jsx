@@ -1,7 +1,17 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState } from "react";
+import { useEffect } from 'react'
+import { useDispatch } from "react-redux";
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+
+  let dispatch = useDispatch()
+
+  useEffect(()=>{
+            dispatch({type : "removeData", value : {}})
+            dispatch({type : "NOCARD", payload : {} })
+          }, [])
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

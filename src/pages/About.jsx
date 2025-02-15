@@ -1,6 +1,15 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { motion } from "framer-motion";
+import { useEffect } from 'react'
+import { useDispatch } from "react-redux";
 
 function About() {
+  let dispatch = useDispatch()
+
+  useEffect(()=>{
+            dispatch({type : "removeData", value : {}})
+            dispatch({type : "NOCARD", payload : {} })
+          }, [])
   return (
     <motion.div 
       className="bg-gray-100 py-12 px-4 sm:px-6 md:px-12 lg:px-24 text-center"

@@ -1,9 +1,15 @@
 import { useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 function Details() {
   let { city } = useParams();
   let navigate =  useNavigate()
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   let data = useSelector((store) => store.hotelsData.hotels);
 
   let result = data.filter((value) => value.city === city);

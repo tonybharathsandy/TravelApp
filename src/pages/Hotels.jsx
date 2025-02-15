@@ -1,8 +1,11 @@
-import {useSelector} from 'react-redux'
+/* eslint-disable react-hooks/exhaustive-deps */
+import {useDispatch, useSelector} from 'react-redux'
 import {useNavigate} from 'react-router-dom'
+import { useEffect } from 'react'
 
 function Hotels() {
   let navigate = useNavigate()
+  let dispatch = useDispatch()
   let hotelsData = useSelector(store => store.hotelsData.hotels)
   console.log(hotelsData)
 
@@ -10,6 +13,12 @@ function Hotels() {
       e.preventDefault()
       navigate(`/hotel/details/${city}`)
   }
+
+  useEffect(()=>{
+          dispatch({type : "removeData", value : {}})
+          dispatch({type : "NOCARD", payload : {} })
+        }, [])
+
   return (
     <>
         <div className="bg-white">
