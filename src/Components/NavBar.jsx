@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 let initialValue = [
-  { name: 'Home', href: '/', current: false },
+  { name: 'Home', href: '/TravelApp', current: false },
   { name: 'Hotels', href: '/Hotels', current: false },
   { name: 'News', href: '/news', current: false },
   { name: 'About', href: '/about', current: false },
