@@ -1,0 +1,551 @@
+{
+    "destinations": [
+      {
+        "id": 1,
+        "name": "Paris, France",
+        "country": "France",
+        "description": "The city of love, known for its iconic Eiffel Tower, art museums, and exquisite cuisine.",
+        "image":"https://www.reuters.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-2.images.arcpublishing.com%2Freuters%2FAHF2FYISNJO55J6N35YJBZ2JYY.jpg?auth=171c173665f01eec7c47d3402e93d6cde41e26b1304f6ef49a2cc12ff5fcde24&width=5136&quality=80",
+        "attractions": [
+          {"name" : "Eiffel Tower", "image" : "https://i.natgeofe.com/k/c41b4f59-181c-4747-ad20-ef69987c8d59/eiffel-tower-night.jpg?wp=1&w=1084.125&h=1627.5"},
+          {"name" : "Louvre Museum", "image" : "https://media.cntraveler.com/photos/57d961ce3e6b32bf25f5ad0f/16:9/w_2560,c_limit/most-beautiful-paris-louvre-GettyImages-536267205.jpg"},
+          {"name" : "Notre-Dame Cathedral", "image" : "https://publisher-ncreg.s3.us-east-2.amazonaws.com/pb-ncregister/swp/hv9hms/media/2024120214120_f020ce5433f45cee4a3c596c407fbff6f3e383292f417c4ad2a5bd7f8d73674c.jpg"},
+          {"name" : "Champs-Élysées", "image" : "https://static.toiimg.com/photo/110413153.cms"}
+        ],
+        "activities": [
+          "Seine River Cruise",
+          "Wine Tasting",
+          "Museum Tours"
+        ],
+        "average_cost": 2000,
+        "currency": "EUR"
+      },
+      {
+        "id": 2,
+        "name": "Kyoto, Japan",
+        "country": "Japan",
+        "description": "A historical city famous for its classical Buddhist temples, gardens, and traditional wooden houses.",
+        "image":"https://dskyoto.s3.amazonaws.com/gallery/full/8514/5559/7797/08-20131216_FushimiInari_Mainspot-307.jpg",
+        "attractions": [
+          {"name" : "Fushimi Inari Shrine", "image" : "https://upload.wikimedia.org/wikipedia/commons/0/0e/Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine%2C_Kyoto%2C_Japan.jpg"},
+          {"name" : "Kinkaku-ji", "image" : "https://res-2.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1679042833/kyoto/Kyoto_s_id16_5"},
+          {"name" :  "Arashiyama Bamboo Grove", "image" : "https://photos.smugmug.com/i-hFcX6RC/0/1c58ee68/L/famous-bamboo-grove-arashiyama-L.jpg"},
+          {"name" : "Gion District", "image" : "https://images.squarespace-cdn.com/content/v1/58fd82dbbf629ab224f81b68/1509977195474-KIWX96WYINEX99AR18YE/Shirakawa-Kyoto.jpg"}        
+        ],
+        "activities": [
+          "Tea Ceremony",
+          "Temple Visits",
+          "Cherry Blossom Viewing"
+        ],
+        "average_cost": 1500,
+        "currency": "JPY"
+      },
+      {
+        "id": 3,
+        "name": "New York City, USA",
+        "country": "USA",
+        "description": "The city that never sleeps, famous for its skyline, Broadway shows, and diverse culture.",
+        "image":"https://media.posterlounge.com/img/products/720000/719272/719272_poster.jpg",
+        "attractions": [
+          {"name" : "Statue of Liberty", "image" : "https://images.squarespace-cdn.com/content/v1/564fe1dfe4b02e24589cb0cd/1645814786032-WNCKTFACB84H9051CJYJ/Cover.png?format=1500w"},
+          {"name" : "Times Square", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/1200px-New_york_times_square-terabass.jpg"},
+          {"name" : "Central Park", "image" : "https://i.natgeofe.com/n/15ec8dec-df7c-45af-a0ae-08d4e906a134/belvedere-castle.jpg?w=2880&h=2160"},
+          {"name" : "Empire State Building" , "image" : "https://cdn.britannica.com/73/114973-050-2DC46083/Midtown-Manhattan-Empire-State-Building-New-York.jpg"} 
+        ],
+        "activities": [
+          "Broadway Shows",
+          "Food Tours",
+          "Shopping"
+        ],
+        "average_cost": 2500,
+        "currency": "USD"
+      },
+      {
+        "id": 4,
+        "name": "Rome, Italy",
+        "country": "Italy",
+        "description": "A city rich in history, art, and architecture, known for its ancient ruins and Italian cuisine.",
+        "image":"https://media.posterlounge.com/img/products/590000/582500/582500_poster.jpg",
+        "attractions": [
+          {"name" :  "Colosseum", "image" : "https://cdn.britannica.com/03/98303-050-C8036C9D/Interior-Colosseum-Rome.jpg"},
+          {"name" : "Vatican Museums", "image" : "https://archjourney.org/wp-content/uploads/2018/04/1-14.jpg"},
+          {"name" :  "Trevi Fountain", "image" : "https://upload.wikimedia.org/wikipedia/commons/7/7e/Trevi_Fountain%2C_Rome%2C_Italy_2_-_May_2007.jpg"},
+          {"name" : "Pantheon", "image" : "https://cdn-imgix.headout.com/media/images/27760fdcb35397d694c6c83033c6b1cb-Rome-PAntheon-Exterior.jpg?auto=format&w=1069.6000000000001&h=687.6&q=90&fit=crop&ar=14%3A9&crop=faces"} 
+        ],
+        "activities": [
+          "Historical Tours",
+          "Food Tastings",
+          "Vatican Visits"
+        ],
+        "average_cost": 1800,
+        "currency": "EUR"
+      },
+      {
+        "id": 5,
+        "name": "Sydney, Australia",
+        "country": "Australia",
+        "description": "A vibrant city known for its Sydney Opera House, beautiful beaches, and outdoor lifestyle.",
+        "image":"https://cdn-imgix.headout.com/tour/20072/TOUR-IMAGE/d85280d5-3c4f-4f54-bd7a-6fc5cc68597f-10732-sydney-sydney-and-bondi-tour-with-sydney-opera-house-tour-01.jpg",
+        "attractions": [
+          {"name" :  "Sydney Opera House", "image" : "https://cdn.britannica.com/96/100196-050-C92064E0/Sydney-Opera-House-Port-Jackson.jpg"},
+          {"name" :  "Bondi Beach", "image" : "https://sandee.com/_next/image?url=https%3A%2F%2Fcdn.sandee.com%2F88448_1650_1100.avif&w=3840&q=75"},
+          {"name" :  "Sydney Harbour Bridge", "image" : "https://cdn.britannica.com/33/155133-050-962670B6/Sydney-Harbour-Bridge-Australia-Syndey.jpg"},
+          {"name" : "Taronga Zoo", "image" : "https://cdn-imgix.headout.com/media/images/277f6ed4e7b76ef9df1ed01d30a1a9ed-16984-TicketstoTarongaZoowithExpressFerry-005.jpg?w=744&h=465&crop=faces&auto=compress%2Cformat&fit=min"} 
+        ],
+        "activities": [
+          "Surfing",
+          "Harbour Cruises",
+          "Wildlife Tours"
+        ],
+        "average_cost": 2200,
+        "currency": "AUD"
+      },
+      {
+        "id": 6,
+        "name": "Dubai, UAE",
+        "country": "UAE",
+        "description": "A modern city known for its luxury shopping, ultramodern architecture, and lively nightlife scene.",
+        "image":"https://avatars.housearch.com/get-vertis-journal/4212087/orig.webp_1684237630270/1920x1920",
+        "attractions": [
+          {"name" :  "Burj Khalifa", "image" : "https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/584459-istock-183342824-24fbfe616cffa90eb7dcf9d4aa8e445c.jpg"},
+          {"name" :   "Dubai Mall", "image" : "https://wehop.de/wp-content/uploads/2021/01/dubai-mall-lake.jpg"},
+          {"name" :   "Palm Jumeirah", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr11iAIj6yaQ--qNqJnct3zgkaMgSaSdeBdg&s"},
+          {"name" : "Dubai Marina", "image" : "https://media1.thrillophilia.com/filestore/jz2w8aik0bugu8srosh64guk9vct_1496478637_Dubai-Marina-emerald-green-water.jpg?w=400&dpr=2"}    
+        ],
+        "activities": [
+          "Desert Safari",
+          "Skydiving",
+          "Luxury Shopping"
+        ],
+        "average_cost": 3000,
+        "currency": "AED"
+      },
+      {
+        "id": 7,
+        "name": "Cape Town, South Africa",
+        "country": "South Africa",
+        "description": "A stunning coastal city known for its natural beauty, mountains, and vibrant culture.",
+        "image":"https://cdn.britannica.com/41/75841-050-FAAE44F0/Table-Mountain-Cape-Town-Western-Bay-South.jpg",
+        "attractions": [
+          {"name" :    "Table Mountain", "image" : "https://media.cntraveler.com/photos/5b742b191f8f5f5aacc37829/master/pass/Table-Mountain_GettyImages-103891332.jpg"},
+          {"name" :   "Robben Island", "image" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a4/f2/14/robben-islandhas-been.jpg?w=1200&h=-1&s=1"},
+          {"name" :  "Cape of Good Hope", "image" : "https://upload.wikimedia.org/wikipedia/commons/e/e7/Playa_Dias%2C_Cape_Point%2C_Sud%C3%A1frica%2C_2018-07-23%2C_DD_103.jpg"},
+          {"name" : "Boulders Beach", "image" : "https://capetownvesparentals.com/wp-content/uploads/2016/10/boulders-beach.jpg"}   
+        ],
+        "activities": [
+          "Hiking",
+          "Wildlife Safari",
+          "Winery Tours"
+        ],
+        "average_cost": 1600,
+        "currency": "ZAR"
+      },
+      {
+        "id": 8,
+        "name": "Bangkok, Thailand",
+        "country": "Thailand",
+        "description": "A bustling metropolis known for its vibrant street life, temples, and delicious street food.",
+        "image":"https://cdn.britannica.com/59/252559-050-F959E5DC/Grand-palace-and-Wat-Phra-Keaw-Bangkok.jpg",
+        "attractions": [
+          {"name" :      "Grand Palace", "image" : "https://www.travelonline.com/thailand/attractions/grand-palace/thailand-generic-grand-palace-hd-56219-banner.jpg"},
+          {"name" :   "Wat Arun", "image" : "https://static.wixstatic.com/media/2cc94a_07e55de318fe41538e17cb9de596cb45~mv2.jpg/v1/fill/w_2500,h_1406,al_c/2cc94a_07e55de318fe41538e17cb9de596cb45~mv2.jpg"},
+          {"name" :   "Chatuchak Market", "image" : "https://static1.squarespace.com/static/5f5de3ec83beb9471d61c1f9/t/5f819b126902e96ff6758300/1602329367852/?format=1500w"},
+          {"name" : "Floating Markets", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFEriu3SdQKYkaKp5e2CkZ8ABUu6FczdRIPQ&s"}   
+        ],
+        "activities": [
+          "Temple Visits",
+          "Street Food Tours",
+          "Boat Rides"
+        ],
+        "average_cost": 1200,
+        "currency": "THB"
+      },
+      {
+        "id": 9,
+        "name": "Barcelona, Spain",
+        "country": "Spain",
+        "description": "Known for its stunning architecture and Mediterranean beaches.",
+        "image":"https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/2023/07/wallpaperaccess.com_-scaled.jpg",
+        "attractions": [
+          {"name" :       "Sagrada Familia", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKi5XtLTArJawSMQSs6aMyZBFtfNupfeELpQ&s"},
+          {"name" :   "Park Güell", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Parc_guell_-_panoramio.jpg/800px-Parc_guell_-_panoramio.jpg"},
+          {"name" :    "La Rambla", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMc3zV1ecwpPcluLTV5yZDa6OBmZSD3fbzww&s"},
+          {"name" : "Casa Batlló", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Casa_Batllo_Overview_Barcelona_Spain_cut.jpg/1200px-Casa_Batllo_Overview_Barcelona_Spain_cut.jpg"}
+        ],
+        "activities": [
+          "Tapas Tours",
+          "Beach Relaxation",
+          "Cultural Tours"
+        ],
+        "average_cost": 1800,
+        "currency": "EUR"
+      },
+      {
+        "id": 10,
+        "name": "London, UK",
+        "country": "United Kingdom",
+        "description": "Famous for its royal landmarks, museums, and diverse culture.",
+        "image":"https://www.cnet.com/a/img/resize/e97ef53ec7d70c9f49f9834071cbe17f1aae7acb/hub/2016/07/29/aab3d2d1-8b8d-4582-a03c-f242761fcd1d/the-tower-of-london-mid.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "attractions": [
+          {"name" :   "Buckingham Palace", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Buckingham_Palace_UK.jpg/1200px-Buckingham_Palace_UK.jpg"},
+          {"name" :    "British Museum", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-PkhlfvV575x-F_AyRS6RspdE2RoEDoj9gg&s"},
+          {"name" :    "Tower of London", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Tower_of_London_from_the_Shard_%288515883950%29.jpg/800px-Tower_of_London_from_the_Shard_%288515883950%29.jpg"},
+          {"name" :  "Big Ben", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqQZ2dXfNsrn_61OIHaZ0ogeoddRsohTyCWA&s"}
+        ],
+        "activities": [
+          "West End Theatre",
+          "Historic Tours",
+          "Shopping"
+        ],
+        "average_cost": 2500,
+        "currency": "GBP"
+      },
+      {
+        "id": 11,
+        "name": "Machu Picchu, Peru",
+        "country": "Peru",
+        "description": "The ancient Inca city set high in the Andes mountains.",
+        "image":"https://nickandmichellesbigadventure.com/wp-content/uploads/2019/11/20191115_1131428865776883131455771-scaled.jpg",
+        "attractions": [
+          {"name" :    "Machu Picchu", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkKoXdnjC7YJ_XvNXu4UpQnr3wQfOWPUt1mA&s"},
+          {"name" :     "Sacred Valley", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTep5zB6KCOfbGNqqDHoWqlZoTvtXFkacu4rQ&s"},
+          {"name" :  "Inca Trail", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhC0Sxda9V40qHdrkRQFe72AXFO29V4SkJ6g&s"}
+        ],
+        "activities": [
+          "Hiking",
+          "Cultural Exploration"
+        ],
+        "average_cost": 2300,
+        "currency": "PEN"
+      },
+      {
+        "id": 12,
+        "name": "Amsterdam, Netherlands",
+        "country": "Netherlands",
+        "description": "Known for its canals, museums, and liberal culture.",
+        "image":"https://media1.thrillophilia.com/filestore/wvfjwxcdprz4ldrmridbm7cqcfwk_Vondelpark_Amsterdam_8eb61ec305.jpg",
+        "attractions": [
+          {"name" :    "Anne Frank House", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKcsyHh4dfjiLNd1F7YGhmSsIca0jnxzOmDg&s"},
+          {"name" :          "Van Gogh Museum", "image" : "https://www.octatube.nl/2/entity-file/entity/projects/field/header/instance/38/download/0/projectitem/38-van-gogh-museum/photo-1365-thumb_view.jpg"},
+          {"name" :     "Rijksmuseum", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTVR1X90ArEERhTwmw7_cE-zVvioFb2O9EqQ&s"},
+          {"name" :   "Vondelpark", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Amsterdam%2C_Vondelpark%2C_at_the_pond-2.jpg/1200px-Amsterdam%2C_Vondelpark%2C_at_the_pond-2.jpg"}
+        ],
+        "activities": [
+          "Canal Tours",
+          "Cycling",
+          "Museum Visits"
+        ],
+        "average_cost": 1700,
+        "currency": "EUR"
+      },
+      {
+        "id": 13,
+        "name": "Istanbul, Turkey",
+        "country": "Turkey",
+        "description": "A vibrant city blending Eastern and Western cultures, with impressive mosques and bazaars.",
+        "image":"https://media.architecturaldigest.com/photos/674f66b0fbc7458d78d9f909/16:9/w_2560%2Cc_limit/GettyImages-1862634358.jpg",
+        "attractions": [
+          {"name" :    "Hagia Sophia", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Hagia_Sophia_Mars_2013.jpg/800px-Hagia_Sophia_Mars_2013.jpg"},
+          {"name" :     "Blue Mosque", "image" : "https://media.architecturaldigest.com/photos/674f66b0fbc7458d78d9f909/4:3/w_5352,h_4014,c_limit/GettyImages-1862634358.jpg"},
+          {"name" :     "Topkapi Palace", "image" : "https://www.islamiclandmarks.com/wp-content/uploads/2019/01/Plan-view-of-Topkapi-Palace.jpg"},
+          {"name" :     "Grand Bazaar", "image" : "https://cdn-gaecj.nitrocdn.com/JMwuRIbFKRytZpZBQQGkRvqmTfGyKhHA/assets/images/optimized/rev-2ccb7ab/turkeytravelplanner.com/wp-content/uploads/2022/06/Shopping-in-Turkey-What-to-Buy-scaled.jpg"}
+        ],
+        "activities": [
+          "Bazaars Shopping",
+          "Boat Tours",
+          "Cultural Tours"
+        ],
+        "average_cost": 2000,
+        "currency": "TRY"
+      },
+      {
+        "id": 14,
+        "name": "Cairo, Egypt",
+        "country": "Egypt",
+        "description": "Home to the ancient Pyramids and the Sphinx.",
+        "image":"https://media.architecturaldigest.com/photos/580665c6cdff3c07101deec9/16:9/w_2560%2Cc_limit/pyramid-01.jpg",
+        "attractions": [
+          {"name" :     "Pyramids of Giza", "image" : "https://cdn.britannica.com/43/189743-050-25B19F71/Great-Sphinx-Pyramid-of-Khafre-Egypt-Giza.jpg"},
+          {"name" :      "Sphinx", "image" : "https://assets.editorial.aetnd.com/uploads/2018/01/the-sphinx-gettyimages-1183584133.jpg"},
+          {"name" :      "Egyptian Museum", "image" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/0b/ae/20/img-20170420-220949-228.jpg?w=900&h=500&s=1"}         
+        ],
+        "activities": [
+          "Camel Rides",
+          "Historical Tours"
+        ],
+        "average_cost": 1600,
+        "currency": "EGP"
+      },
+      {
+        "id": 15,
+        "name": "Rio de Janeiro, Brazil",
+        "country": "Brazil",
+        "description": "Famous for its beaches, carnival, and the Christ the Redeemer statue.",
+        "image":"https://iugs-geoheritage.org/wp-content/uploads/2022/07/079-1_The-Sugar-Loaf-monolith-of-Rio-de-Janeiro.jpg",
+        "attractions": [
+          {"name" :      "Christ the Redeemer", "image" : "https://cdn.britannica.com/54/150754-050-5B93A950/statue-Christ-the-Redeemer-Rio-de-Janeiro.jpg"},
+          {"name" :       "Copacabana Beach", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Praia_de_Copacabana_-_Rio_de_Janeiro%2C_Brasil.jpg/800px-Praia_de_Copacabana_-_Rio_de_Janeiro%2C_Brasil.jpg"},
+          {"name" :        "Sugarloaf Mountain", "image" : "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/70/2f/44.jpg"},
+          {"name" :    "Selarón Steps", "image" : "https://freewalkertours.com/wp-content/uploads/Escalera-Selaron5.jpeg"}        
+        ],
+        "activities": [
+          "Carnival Parade",
+          "Beach Relaxation",
+          "City Tours"
+        ],
+        "average_cost": 2200,
+        "currency": "BRL"
+      },
+      {
+        "id": 16,
+        "name": "Buenos Aires, Argentina",
+        "country": "Argentina",
+        "description": "Known for its European-style architecture, tango dancing, and vibrant culture.",
+        "image":"https://www.encirclephotos.com/wp-content/uploads/Argentina-Buenos-Aires-Recoleta-Cemetery-1440x960.jpg",
+        "attractions": [
+          {"name" :      "La Boca", "image" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/1e/6e/82/the-colorful-street.jpg?w=900&h=500&s=1"},
+          {"name" :       "Teatro Colón", "image" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/3c/aa/40/photo1jpg.jpg?w=700&h=400&s=1"},
+          {"name" :      "Plaza de Mayo", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ncNU2yHw-SQtK28NizkZxyyyf021Ig-rAg&s"},
+          {"name" :    "Recoleta Cemetery", "image" : "https://stephentravels.com/wp-content/uploads/2021/05/argentina_buenos-aires_recoleta-cemetery_passages.jpg"}     
+        ],
+        "activities": [
+          "Tango Shows",
+          "City Tours",
+          "Food Tours"
+        ],
+        "average_cost": 1900,
+        "currency": "ARS"
+      },
+      {
+        "id": 17,
+        "name": "Seoul, South Korea",
+        "country": "South Korea",
+        "description": "A blend of traditional palaces and modern skyscrapers.",
+        "image":"https://images.squarespace-cdn.com/content/v1/59d89989bebafb24a356f24c/1544359896864-5CQXE4YT2ZNZ8096N6EK/FullSizeRender+32.jpg?format=1000w",
+        "attractions": [
+          {"name" :      "Gyeongbokgung Palace", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-vUt2g_4N_8j-pQZhzTXQxarxBJEQnWvsQ&s"},
+          {"name" :      "Bukchon Hanok Village", "image" : "https://static1.squarespace.com/static/63ff291c8cf8fd1dab8e45bf/t/6670f299acd12761fe8482fc/1718678175844/bukchon-hanok-village-seoul.jpg?format=1500w"},
+          {"name" :      "N Seoul Tower", "image" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/91/f7/05/photo0jpg.jpg?w=900&h=500&s=1"},
+          {"name" :    "Myeongdong", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/%EB%AA%85%EB%8F%998%EA%B8%B8_%EA%B1%B0%EB%A6%AC_%282020.03%29.jpg/1200px-%EB%AA%85%EB%8F%998%EA%B8%B8_%EA%B1%B0%EB%A6%AC_%282020.03%29.jpg"}         
+        ],
+        "activities": [
+          "Temple Visits",
+          "Shopping",
+          "Korean Food Tours"
+        ],
+        "average_cost": 2100,
+        "currency": "KRW"
+      },
+      {
+        "id": 18,
+        "name": "Venice, Italy",
+        "country": "Italy",
+        "description": "A historic city of canals, beautiful art, and exquisite seafood.",
+        "image":"https://cdn.audleytravel.com/2188/1564/79/1023241-view-of-st-marks-and-the-doges-palace-venice.jpg",
+        "attractions": [
+          {"name" :       "St. Mark's Square", "image" : "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/07/04/d5cb5f8611a9608a13e2acc3171aee35_1000x1000.jpg"},
+          {"name" :       "Grand Canal", "image" : "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/07/04/10b03c594e32e0eb1ba56dbc39670ffe_1000x1000.jpg"},
+          {"name" :        "Doge's Palace", "image" : "https://www.througheternity.com/upload/CONF83/20240924/doges_palace_guide_header-tSa-730X490.jpeg"},
+          {"name" :    "Rialto Bridge", "image" : "https://cdn.sanity.io/images/cxgd3urn/production/a4f86e8cd8863cb76d5363f8beb8a430af6ea023-1998x1328.jpg?rect=158,159,1682,1009&w=1200&h=720&q=85&fit=crop&auto=format"}
+        ],
+        "activities": [
+          "Gondola Rides",
+          "Cultural Tours",
+          "Food Tours"
+        ],
+        "average_cost": 2300,
+        "currency": "EUR"
+      },
+      {
+        "id": 19,
+        "name": "Athens, Greece",
+        "country": "Greece",
+        "description": "The cradle of Western civilization, home to ancient ruins like the Parthenon.",
+        "image":"https://images.pexels.com/photos/24554421/pexels-photo-24554421/free-photo-of-ruins-of-temple-of-olympian-zeus-in-athens.jpeg",
+        "attractions": [
+          {"name" :        "Parthenon", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/640px-The_Parthenon_in_Athens.jpg"},
+          {"name" :       "Acropolis Museum", "image" : "https://cdn.prod.website-files.com/639b1424f2e7e13621177414/64bfa03e7519806dd6195ee8_About%20the%20Acropolis%20Museum%20by%20TourScanner.jpg"},
+          {"name" :        "Temple of Olympian Zeus", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpM4hh767uYUUlobI7afDqBc1Xp2M4NVruCQ&s"}              
+        ],
+        "activities": [
+          "Historical Tours",
+          "Beach Visits"
+        ],
+        "average_cost": 1900,
+        "currency": "EUR"
+      },
+      {
+        "id": 20,
+        "name": "San Francisco, USA",
+        "country": "USA",
+        "description": "Known for the Golden Gate Bridge, vibrant culture, and tech hub status.",
+        "image":"https://cdn.britannica.com/95/94195-050-FCBF777E/Golden-Gate-Bridge-San-Francisco.jpg",
+        "attractions": [
+          {"name" :          "Golden Gate Bridge", "image" : "https://www.exp1.com/blog/wp-content/uploads/sites/7/2018/08/Golden-Gate-Bridge-1024x576.jpg"},
+          {"name" :      "Alcatraz Island", "image" : "https://upload.wikimedia.org/wikipedia/commons/1/17/Alcatraz_2021.jpg"},
+          {"name" :       "Fisherman's Wharf", "image" : "https://www.dylanstours.com/wp-content/uploads/2020/02/unnamed-2.png"}             
+        ],
+        "activities": [
+          "City Tours",
+          "Biking",
+          "Food Tours"
+        ],
+        "average_cost": 2400,
+        "currency": "USD"
+      },
+      {
+        "id": 21,
+        "name": "Lisbon, Portugal",
+        "country": "Portugal",
+        "description": "A city full of charm, history, and delicious seafood.",
+        "image":"https://portugal-magik.com/wp-content/uploads/2019/05/Tours_Belem_Tower_Lisbon-scaled.jpg",
+        "attractions": [
+          {"name" :      "Belem Tower", "image" : "https://cdn-imgix.headout.com/media/images/5955516c0a11f63a8a22d16d15c7cf3b-20935-lisbon-guided-tour-to-bele-m-tower-02.jpg?auto=format&w=1069.6000000000001&h=687.6&q=90&fit=crop&ar=14%3A9&crop=faces"},
+          {"name" :   "Alfama District", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF7puh4v0KLHGDJSfxeJe6r0-EJOcxtR7uJg&s"},
+          {"name" :      "Jerónimos Monastery", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_s7bmjN0XYChYJGcRQhn7eLrTxSUlptl4sg&s"}         
+        ],
+        "activities": [
+          "Fado Music Shows",
+          "City Tours",
+          "Cultural Tours"
+        ],
+        "average_cost": 1700,
+        "currency": "EUR"
+      },
+      {
+        "id": 22,
+        "name": "Singapore",
+        "country": "Singapore",
+        "description": "A modern city-state known for its gardens, architecture, and clean streets.",
+        "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/30/89/29/psx-20190223-020320-largejpg.jpg?w=1200&h=-1&s=1",
+        "attractions": [
+          {"name" :       "Gardens by the Bay", "image" : "https://www.visitsingapore.com/content/dam/visitsingapore/neighbourhoods/marina-bay/page-image-gardens-by-the-bay_1512x1120.jpg"},
+          {"name" :    "Marina Bay Sands", "image" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/0a/92/56/sands-skypark.jpg?w=900&h=500&s=1"},
+          {"name" :       "Sentosa Island", "image" : "https://i.natgeofe.com/n/26cda4f1-11f3-4b17-aa51-81c41c06844a/01-sentosa-island.jpg?w=2880&h=1930"}     
+        ],
+        "activities": [
+          "Skydiving",
+          "Cultural Tours",
+          "Shopping"
+        ],
+        "average_cost": 2500,
+        "currency": "SGD"
+      },
+      {
+        "id": 23,
+        "name": "Bali, Indonesia",
+        "country": "Indonesia",
+        "description": "Tropical paradise known for its beautiful beaches and temples.",
+        "image":"https://img.static-kl.com/images/media/A1EADDF4-0F64-481D-8C1CE368FEAFE871",
+        "attractions": [
+          {"name" :    "Sacred Monkey Forest Sanctuary", "image" : "https://cdn.prod.website-files.com/66fab24d6dde4d79b3b50865/676f91e6bb2339da867c6b2a_Sacred-Monkey-Forest-Sanctuary.webp"},
+          {"name" :    "Tanah Lot", "image" : "https://theworldtravelguy.com/wp-content/uploads/2020/11/DJI_0943_1200.jpg"},
+          {"name" :       "Uluwatu Temple", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAvpCw8yb-LWkeN1QECocGPvm5jm2pVKqTMQ&s"} 
+        ],
+        "activities": [
+          "Beach Relaxation",
+          "Temple Visits",
+          "Surfing"
+        ],
+        "average_cost": 2000,
+        "currency": "IDR"
+      },
+      {
+        "id": 24,
+        "name": "Berlin, Germany",
+        "country": "Germany",
+        "description": "A city of rich history, arts, and a modern, vibrant nightlife.",
+        "image":"https://fromplacetoplace.travel/wp-content/uploads/sites/2/2022/07/berlin-brandenburger-tor-rueckseite.jpeg",
+        "attractions": [
+          {"name" :     "Berlin Wall", "image" : "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2018_47/2655496/181122-berlin-wall-mc-9053.JPG"},
+          {"name" :     "Brandenburg Gate", "image" : "https://images.squarespace-cdn.com/content/v1/64ba44348b6a05559a816bc1/1690282629211-NTVSXV9U1G1NO7OHD4SN/Photographing+Brandenburg+Gate_0344.jpg?format=750w"},
+          {"name" :  "Museum Island", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjDQJI95WZvB75vznIzawarE8Q8soCO5cetA&s"}  
+        ],
+        "activities": [
+          "Museum Visits",
+          "Nightlife",
+          "City Tours"
+        ],
+        "average_cost": 2100,
+        "currency": "EUR"
+      },
+      {
+        "id": 25,
+        "name": "Edinburgh, Scotland",
+        "country": "Scotland",
+        "description": "Famous for its castles, festivals, and beautiful landscape.",
+        "image":"https://d1km7u9ubck4j.cloudfront.net/production-upgrade-2024/cb3ce9b06932da6faaa7fc70d5b5d2f4/conversions/5b598cbab0ff9-HD.jpg",
+        "attractions": [
+          {"name" :    "Edinburgh Castle", "image" : "https://upload.wikimedia.org/wikipedia/commons/c/c1/Edinburgh_Castle_from_the_south_east.JPG"},
+          {"name" :    "Royal Mile", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9iJ8Y0QXxhetwj2733Zt5oQrjO0at4owMRA&s"},
+          {"name" :   "Arthur's Seat", "image" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWV6uISMkC1zVDvc_5y-xpce-inOC7d2WjPw&s"} 
+        ],
+        "activities": [
+          "Castle Tours",
+          "Festival Participation",
+          "Nature Walks"
+        ],
+        "average_cost": 1800,
+        "currency": "GBP"
+      },
+      {
+        "id": 26,
+        "name": "Hong Kong",
+        "country": "China",
+        "description": "A bustling city known for its skyline, shopping, and food scene.",
+        "image":"https://www.hotel-icon.com/public/images/Watch_a_Symphony_of_Lights.jpg",
+        "attractions": [
+          {"name" :   "Victoria Peak", "image" : "https://upload.wikimedia.org/wikipedia/commons/7/7d/High_West_and_Victoria_Peak_from_Victoria_Gap_%28crop1%29.jpg"},
+          {"name" :    "Hong Kong Disneyland", "image" : "https://www.discoverhongkong.com/content/dam/dhk/intl/explore/attractions/the-ultimate-guide-to-hong-kong-disneyland/ultimate-guide-to-hong-kong-disneyland-1920x1080.jpg"},
+          {"name" :    "Tsim Sha Tsui", "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Vista_del_Puerto_de_Victoria_desde_Sky100%2C_Hong_Kong%2C_2013-08-09%2C_DD_10.JPG/800px-Vista_del_Puerto_de_Victoria_desde_Sky100%2C_Hong_Kong%2C_2013-08-09%2C_DD_10.JPG"}
+        ],
+        "activities": [
+          "Shopping",
+          "Night Markets",
+          "Cultural Tours"
+        ],
+        "average_cost": 2400,
+        "currency": "HKD"
+      },
+      {
+        "id": 27,
+        "name": "Queenstown, New Zealand",
+        "country": "New Zealand",
+        "description": "A haven for outdoor adventure lovers with dramatic landscapes.",
+        "image":"https://live.staticflickr.com/2824/10687031544_8fd9179f7b_h.jpg",
+        "attractions": [
+          {"name" :   "Lake Wakatipu", "image" : "https://upload.wikimedia.org/wikipedia/commons/1/18/Lake_Wakatipu_and_Remarkable_Mountains.jpg"},
+          {"name" :    "Milford Sound", "image" : "https://www.luxurygold.com/lg/wp-content/uploads/2022/05/Large-The-Milford-Sound-fiord-Fiordland-national-park-New-Zealand-991837920.jpg"},
+          {"name" :    "Remarkables Mountain Range", "image" : "https://upload.wikimedia.org/wikipedia/commons/8/86/The_Remarkables_%281126885451%29.jpg"}
+        ],
+        "activities": [
+          "Bungee Jumping",
+          "Hiking",
+          "Skydiving"
+        ],
+        "average_cost": 2500,
+        "currency": "NZD"
+      },
+      {
+        "id": 28,
+        "name": "Vancouver, Canada",
+        "country": "Canada",
+        "description": "A beautiful city set between mountains and ocean, known for its outdoor activities.",
+        "image":"https://media.cntraveler.com/photos/5c23aeeaa546ef283d2174c3/16:9/w_2560,c_limit/GettyImages-1033446230.jpg",
+        "attractions": [
+          {"name" :    "Stanley Park", "image" : "https://www.moon.com/wp-content/uploads/2019/01/Vancouver_StanleyParkSeawall_jamesvancouver-iStock-520298306.jpg?w=640"},
+          {"name" :    "Capilano Suspension Bridge", "image" : "https://upload.wikimedia.org/wikipedia/commons/6/64/Capilano_Suspension_Bridge%2C_Vancouver%2C_Canada_%28July_2016%29_1.jpg"},
+          {"name" :    "Granville Island", "image" : "https://upload.wikimedia.org/wikipedia/commons/6/62/Granville_Island.jpg"}
+        ],
+        "activities": [
+          "Hiking",
+          "Whale Watching",
+          "Skiing"
+        ],
+        "average_cost": 2600,
+        "currency": "CAD"
+      }
+    ]
+  }
+
+  

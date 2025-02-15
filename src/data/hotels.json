@@ -1,0 +1,491 @@
+{
+    "hotels": [
+      {
+        "city": "Paris",
+        "country": "France",
+        "hotels": [
+          {
+            "hotel_id": 1,
+            "name": "Mandarin Oriental, Paris",
+            "address": "251 Rue Saint-Honoré, 75001 Paris, France",
+            "star_rating": 4,
+            "latitude": 48.8688,
+            "longitude": 2.3275,
+            "url": "https://www.mandarinoriental.com/en/paris",
+            "image_url": "https://cdn.prod.website-files.com/6242699f5d285614ea782f2d/65d6ccb205b5143bf238f9eb_mo-paris.jpeg",
+            "overview": "A luxury 5-star hotel located in the heart of Paris, offering world-class accommodations, spa, and fine dining experiences.",
+            "price": "€800-€1,200 per night"
+          }
+        ]
+      },
+      {
+        "city": "Kyoto",
+        "country": "Japan",
+        "hotels": [
+          {
+            "hotel_id": 3,
+            "name": "The Ritz-Carlton, Kyoto",
+            "address": "Kamogawa Nijo-Ohashi Hotori, Nakagyo Ward, Kyoto, 604-0902, Japan",
+            "star_rating": 5,
+            "latitude": 35.0105,
+            "longitude": 135.7681,
+            "url": "https://www.ritzcarlton.com/en/hotels/japan/kyoto",
+            "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/1e/41/c1/hotel-exterior.jpg?w=700&h=-1&s=1",
+            "overview": "A luxury hotel offering stunning views of the Kamogawa River and blending traditional Japanese aesthetics with modern comforts.",
+            "price": "¥70,000-¥120,000 per night"
+          }
+        ]
+      },
+      {
+        "city": "New York City",
+        "country": "United States",
+        "hotels": [
+          {
+            "hotel_id": 4,
+            "name": "The Plaza",
+            "address": "768 5th Ave, New York, NY 10019, United States",
+            "star_rating": 5,
+            "latitude": 40.7644,
+            "longitude": -73.9747,
+            "url": "https://www.theplazany.com/",
+            "image_url": "https://images.ctfassets.net/1aemqu6a6t65/7lBloXRCaPsNquH6pYOlDE/90c38764a23ba375593244635d69a567/The-Plaza-Hotel-Manhattan-NYC-Photo-Courtesy-The-Plaza-Hotel.jpg",
+            "overview": "An iconic luxury hotel located at the corner of Central Park, offering timeless elegance and world-class service.",
+            "price": "$1,000-$1,500 per night"
+          }
+        ]
+      },
+      {
+        "city": "Rome",
+        "country": "Italy",
+        "hotels": [
+          {
+            "hotel_id": 5,
+            "name": "Hotel Eden",
+            "address": "Via Ludovisi 49, 00187 Rome, Italy",
+            "star_rating": 5,
+            "latitude": 41.9086,
+            "longitude": 12.4862,
+            "url": "https://www.dorchestercollection.com/en/rome/hotel-eden/",
+            "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/7c/65/25/caption.jpg?w=1200&h=-1&s=1",
+            "overview": "A luxurious hotel offering panoramic views of Rome, with elegant rooms and exceptional dining options.",
+            "price": "€600-€1,000 per night"
+          }
+        ]
+      },
+      {
+        "city": "Sydney",
+        "country": "Australia",
+        "hotels": [
+          {
+            "hotel_id": 6,
+            "name": "Park Hyatt Sydney",
+            "address": "7 Hickson Rd, The Rocks NSW 2000, Australia",
+            "star_rating": 3,
+            "latitude": -33.8587,
+            "longitude": 151.2098,
+            "url": "https://www.hyatt.com/en-US/hotel/australia/park-hyatt-sydney/sydph",
+            "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/e4/3c/aa/exterior.jpg?w=700&h=-1&s=1",
+            "overview": "A luxury waterfront hotel offering breathtaking views of the Sydney Opera House and Harbour Bridge.",
+            "price": "AUD 800-AUD 1,200 per night"
+          }
+        ]
+      },
+      {
+        "city": "Dubai",
+        "country": "UAE",
+        "hotels": [
+          {
+            "hotel_id": 7,
+            "name": "Burj Al Arab Jumeirah",
+            "address": "Jumeirah St - Dubai - United Arab Emirates",
+            "star_rating": 5,
+            "latitude": 25.1412,
+            "longitude": 55.1852,
+            "url": "https://www.jumeirah.com/en/stay/dubai/burj-al-arab-jumeirah",
+            "image_url": "https://cdn.jumeirah.com/-/mediadh/dh/hospitality/jumeirah/hotels/dubai/jumeirah-burj-al-arab/new-website-content/baa-hotel-home-page/hotel-hero/baa_hero-image.jpg?h=1235&w=2880&revision=9771b1db-8936-4592-8feb-075daa27fe91",
+            "overview": "An iconic luxury hotel known for its sail-shaped structure and unparalleled service.",
+            "price": "AED 5,000-AED 10,000 per night"
+          }
+        ]
+      },
+      {
+        "city": "Cape Town",
+        "country": "South Africa",
+        "hotels": [
+          {
+            "hotel_id": 8,
+            "name": "The Silo Hotel",
+            "address": "Silo Square, Victoria & Alfred Waterfront, Cape Town, 8001, South Africa",
+            "star_rating": 2,
+            "latitude": -33.9081,
+            "longitude": 18.4181,
+            "url": "https://www.theroyalportfolio.com/the-silo/",
+            "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/492722721.jpg?k=827c257fc95a0863833a50c5d377860dd6e5b510f64cdecd4e13f993ae50b4a3&o=&hp=1",
+            "overview": "A luxury hotel located in a historic grain silo, offering stunning views of Table Mountain and the harbor.",
+            "price": "ZAR 10,000-ZAR 15,000 per night"
+          }
+        ]
+      },
+      {
+        "city": "Bangkok",
+        "country": "Thailand",
+        "hotels": [
+          {
+            "hotel_id": 9,
+            "name": "Mandarin Oriental, Bangkok",
+            "address": "48 Oriental Ave, Khwaeng Bang Rak, Bang Rak, Bangkok 10500, Thailand",
+            "star_rating": 5,
+            "latitude": 13.7234,
+            "longitude": 100.5146,
+            "url": "https://www.mandarinoriental.com/en/bangkok",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyGtbZiW2z9vELg5UN9pp0gv-515kWRviD5w&s",
+            "overview": "A luxury hotel situated along the Chao Phraya River, known for its exceptional service and amenities.",
+            "price": "THB 15,000-THB 25,000 per night"
+          }
+        ]
+      },
+      {
+        "city": "Barcelona",
+        "country": "Spain",
+        "hotels": [
+          {
+            "hotel_id": 10,
+            "name": "Hotel Arts Barcelona",
+            "address": "Marina 19-21, 08005 Barcelona, Spain",
+            "star_rating": 1,
+            "latitude": 41.3851,
+            "longitude": 2.1934,
+            "url": "https://www.hotelartsbarcelona.com/",
+            "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/57/45/d2/hotel-arts-barcelona.jpg?w=700&h=-1&s=1",
+            "overview": "A luxury beachfront hotel offering stunning views of the Mediterranean Sea and the city skyline.",
+            "price": "€300-€600 per night"
+          }
+        ]
+      },
+      {
+        "city": "London",
+        "country": "United Kingdom",
+        "hotels": [
+          {
+            "hotel_id": 11,
+            "name": "The Ritz London",
+            "address": "150 Piccadilly, St. James's, London W1J 9BR, United Kingdom",
+            "star_rating": 5,
+            "latitude": 51.5074,
+            "longitude": -0.1425,
+            "url": "https://www.theritzlondon.com/",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXq0pWe4NdaPj85NBG2yAW3gQ71bp4IgPg6g&s",
+            "overview": "A world-renowned luxury hotel offering timeless elegance and exceptional service in the heart of London.",
+            "price": "£500-£1,000 per night"
+          }
+        ]
+      },
+      {
+        "city": "Machu Picchu",
+        "country": "Peru",
+        "hotels": [
+          {
+            "hotel_id": 12,
+            "name": "Belmond Sanctuary Lodge",
+            "address": "Carretera Hiram Bingham Km 7.5, Aguas Calientes, Peru",
+            "star_rating": 5,
+            "latitude": -13.1631,
+            "longitude": -72.5450,
+            "url": "https://www.belmond.com/hotels/south-america/peru/machu-picchu/belmond-sanctuary-lodge/",
+            "image_url": "https://img.belmond.com/f_auto/t_2580x1299/photos/mps/mps-ext02.jpg",
+            "overview": "The only hotel located next to the entrance of Machu Picchu, offering unparalleled access to the ancient ruins.",
+            "price": "$1,000-$1,500 per night"
+          }
+        ]
+      },
+      {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "hotels": [
+          {
+            "hotel_id": 13,
+            "name": "Conservatorium Hotel",
+            "address": "Paulus Potterstraat 50, 1071 DB Amsterdam, Netherlands",
+            "star_rating": "",
+            "latitude": 52.3566,
+            "longitude": 4.8797,
+            "url": "https://www.conservatoriumhotel.com/",
+            "image_url": "https://www.conservatoriumhotel.com/content/uploads/2022/09/Conservatorium-Hotel-Exterior-01-1.jpg",
+            "overview": "A luxury hotel housed in a historic building, offering modern elegance and world-class amenities.",
+            "price": "€400-€800 per night"
+          }
+        ]
+      },
+      {
+        "city": "Istanbul",
+        "country": "Turkey",
+        "hotels": [
+          {
+            "hotel_id": 14,
+            "name": "Çırağan Palace Kempinski",
+            "address": "Çırağan Cd. No:32, 34349 Beşiktaş/İstanbul, Turkey",
+            "star_rating": 4,
+            "latitude": 41.0440,
+            "longitude": 29.0159,
+            "url": "https://www.kempinski.com/en/ciragan-palace/",
+            "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/644505457.jpg?k=6ea9d36f9f77b73d565ecc905e720a06c8d5fe08b2a1409fc1d7953be7d435dd&o=&hp=1",
+            "overview": "A luxurious palace hotel located on the Bosphorus, offering a blend of Ottoman architecture and modern luxury.",
+            "price": "€500-€1,000 per night"
+          }
+        ]
+      },
+      {
+        "city": "Cairo",
+        "country": "Egypt",
+        "hotels": [
+          {
+            "hotel_id": 15,
+            "name": "Four Seasons Hotel Cairo at Nile Plaza",
+            "address": "1089 Corniche El Nil, Cairo 11519, Egypt",
+            "star_rating": 5,
+            "latitude": 30.0444,
+            "longitude": 31.2357,
+            "url": "https://www.fourseasons.com/caironp/",
+            "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/94264419.jpg?k=48f028cadf4312b05cf64334b908d096d204e3de25779873f77724881dc3cc19&o=&hp=1",
+            "overview": "A luxury hotel offering stunning views of the Nile River and the Great Pyramids of Giza.",
+            "price": "$300-$600 per night"
+          }
+        ]
+      },
+      {
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "hotels": [
+          {
+            "hotel_id": 16,
+            "name": "Belmond Copacabana Palace",
+            "address": "Av. Atlântica, 1702 - Copacabana, Rio de Janeiro - RJ, 22021-001, Brazil",
+            "star_rating": 3,
+            "latitude": -22.9714,
+            "longitude": -43.1826,
+            "url": "https://www.belmond.com/hotels/south-america/brazil/rio-de-janeiro/belmond-copacabana-palace/",
+            "image_url": "https://mediahub.belmond.com/wp-content/uploads/2021/03/695275-scaled.jpg",
+            "overview": "A historic luxury hotel located on Copacabana Beach, offering timeless elegance and world-class service.",
+            "price": "$400-$700 per night"
+          }
+        ]
+      },
+      {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "hotels": [
+          {
+            "hotel_id": 17,
+            "name": "Palacio Duhau - Park Hyatt Buenos Aires",
+            "address": "Av. Alvear 1661, C1014AAD CABA, Argentina",
+            "star_rating": 5,
+            "latitude": -34.5895,
+            "longitude": -58.3934,
+            "url": "https://www.hyatt.com/en-US/hotel/argentina/palacio-duhau-park-hyatt-buenos-aires/bueph",
+            "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/612421827.jpg?k=91d60ead9ade76bc1a89884dbe934eabd7a34e417cd27ac5db857d5e3ece5630&o=&hp=1",
+            "overview": "A luxury hotel offering a blend of historic charm and modern elegance in the heart of Buenos Aires.",
+            "price": "$300-$600 per night"
+          }
+        ]
+      },
+      {
+        "city": "Seoul",
+        "country": "South Korea",
+        "hotels": [
+          {
+            "hotel_id": 18,
+            "name": "The Shilla Seoul",
+            "address": "249 Dongho-ro, Jangchung-dong, Jung-gu, Seoul, South Korea",
+            "star_rating": 3,
+            "latitude": 37.5583,
+            "longitude": 127.0034,
+            "url": "https://www.shilla.net/seoul/",
+            "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/476866706.jpg?k=6f5fd8a5ec4328d0a683f59998aaafb2d45facfff7eccb64d3ad46bde8a6303e&o=&hp=1",
+            "overview": "A luxury hotel offering a blend of traditional Korean hospitality and modern amenities.",
+            "price": "₩300,000-₩500,000 per night"
+          }
+        ]
+      },
+      {
+        "city": "Venice",
+        "country": "Italy",
+        "hotels": [
+          {
+            "hotel_id": 19,
+            "name": "Hotel Danieli",
+            "address": "Riva degli Schiavoni, 4196, 30122 Venezia VE, Italy",
+            "star_rating": 5,
+            "latitude": 45.4340,
+            "longitude": 12.3429,
+            "url": "https://www.roccofortehotels.com/hotels-and-resorts/hotel-danieli/",
+            "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/133125796.jpg?k=54517791e0222aba423e8ff190d0402644c5747ecae4a606a55f575d9e6cb516&o=&hp=1",
+            "overview": "A historic luxury hotel offering stunning views of the Venetian Lagoon and exceptional service.",
+            "price": "€500 per night"
+          }
+        ]
+      },
+      {
+        "city": "Athens",
+        "country": "Greece",
+        "hotels": [
+          {
+            "hotel_id": 20,
+            "name": "Hotel Grande Bretagne",
+            "address": "Vasileos Georgiou A 1, Athina 105 64, Greece",
+            "star_rating": 4,
+            "latitude": 37.9753,
+            "longitude": 23.7347,
+            "url": "https://www.grandebretagne.gr/",
+            "image_url": "https://img.easemytrip.com/EMTHOTEL-4737/72/a/l/1122633/104430444_P.jpg",
+            "overview": "A historic luxury hotel offering panoramic views of the Acropolis and exceptional service.",
+            "price": "€350 per night"
+          }
+        ]
+      },
+      {
+        "city": "San Francisco",
+        "country": "United States",
+        "hotels": [
+          {
+            "hotel_id": 21,
+            "name": "The St. Regis San Francisco",
+            "address": "125 3rd St, San Francisco, CA 94103, United States",
+            "star_rating": 5,
+            "latitude": 37.7867,
+            "longitude": -122.4034,
+            "url": "https://www.marriott.com/hotels/travel/sfost-the-st-regis-san-francisco/",
+            "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/a0/08/23/the-st-regis-san-francisco.jpg",
+            "overview": "A luxury hotel offering modern elegance and world-class amenities in the heart of San Francisco.",
+            "price": "$600 per night"
+          }
+        ]
+      },
+      {
+        "city": "Lisbon",
+        "country": "Portugal",
+        "hotels": [
+          {
+            "hotel_id": 22,
+            "name": "Four Seasons Hotel Ritz Lisbon",
+            "address": "R. Rodrigo da Fonseca 88, 1099-039 Lisboa, Portugal",
+            "star_rating": 3,
+            "latitude": 38.7257,
+            "longitude": -9.1503,
+            "url": "https://www.fourseasons.com/lisbon/",
+            "image_url": "https://www.tripreporter.co.uk/wp-content/uploads/2018/05/Four-Seasons-Hotel-Ritz-Exterior.jpg",
+            "overview": "A luxury hotel offering stunning views of Lisbon and exceptional service.",
+            "price": "€280 per night"
+          }
+        ]
+      },
+      {
+        "city": "Marrakech",
+        "country": "Morocco",
+        "hotels": [
+          {
+            "hotel_id": 23,
+            "name": "Royal Mansour Marrakech",
+            "address": "Rue Abou Abbas El Sebti, 40000 Marrakech, Morocco",
+            "star_rating": 2,
+            "latitude": 31.6245,
+            "longitude": -7.9891,
+            "url": "https://www.royalmansour.com",
+            "image_url": "https://images.trvl-media.com/lodging/4000000/3420000/3411200/3411146/ae9cb85d.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+            "overview": "A palace-like luxury hotel offering an authentic Moroccan experience with opulent riads and impeccable service.",
+            "price": "€450 per night"
+          }
+        ]
+      },
+      {
+        "city": "Prague",
+        "country": "Czech Republic",
+        "hotels": [
+          {
+            "hotel_id": 24,
+            "name": "Four Seasons Hotel Prague",
+            "address": "Veleslavínova 2a/1098, 110 00 Prague, Czech Republic",
+            "star_rating": "",
+            "latitude": 50.0875,
+            "longitude": 14.4158,
+            "url": "https://www.fourseasons.com/prague/",
+            "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/77294973.jpg?k=2f31023ddb8d744012e547fbbf72ff726e191ffde7409dd62757c3f84874b3b5&o=&hp=1",
+            "overview": "A luxurious hotel combining historical charm with modern elegance, overlooking the Vltava River.",
+            "price": "€390 per night"
+          }
+        ]
+      },
+      {
+        "city": "Hong Kong",
+        "country": "China",
+        "hotels": [
+          {
+            "hotel_id": 25,
+            "name": "The Peninsula Hong Kong",
+            "address": "Salisbury Rd, Tsim Sha Tsui, Hong Kong",
+            "star_rating": 4,
+            "latitude": 22.2950,
+            "longitude": 114.1712,
+            "url": "https://www.peninsula.com/en/hong-kong",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI9r97unUQQPdYHJimBj_mS5RxacJxGs5xxw&s",
+            "overview": "One of the most iconic luxury hotels in Hong Kong, offering world-class hospitality and breathtaking skyline views.",
+            "price": "HK$3,200 per night"
+          }
+        ]
+      },
+      {
+        "city": "Toronto",
+        "country": "Canada",
+        "hotels": [
+          {
+            "hotel_id": 26,
+            "name": "The Ritz-Carlton, Toronto",
+            "address": "181 Wellington St W, Toronto, ON M5V 3G7, Canada",
+            "star_rating": 5,
+            "latitude": 43.6465,
+            "longitude": -79.3871,
+            "url": "https://www.ritzcarlton.com/en/hotels/canada/toronto",
+            "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/612440439.jpg?k=a6b6fe7d0696cd8c7371913519c25425e50992227524582e676935217f2764db&o=&hp=1",
+            "overview": "A luxurious hotel in the heart of downtown Toronto, offering stunning views of the CN Tower and Lake Ontario.",
+            "price": "CA$550 per night"
+          }
+        ]
+      },
+      {
+        "city": "Shanghai",
+        "country": "China",
+        "hotels": [
+          {
+            "hotel_id": 27,
+            "name": "Waldorf Astoria Shanghai on the Bund",
+            "address": "No. 2 Zhongshan Dong Yi Road, Huangpu District, Shanghai, China",
+            "star_rating": 4,
+            "latitude": 31.2361,
+            "longitude": 121.4911,
+            "url": "https://www.hilton.com/en/hotels/shawatw-waldorf-astoria-shanghai-on-the-bund/",
+            "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/613396535.jpg?k=6dba5cd0d42442ae9b417709dd5507a4c0854588c7b634139b74d4e331190757&o=&hp=1",
+            "overview": "A historic luxury hotel located on the iconic Bund, blending colonial elegance with modern sophistication.",
+            "price": "¥2,800 per night"
+          }
+        ]
+      },
+      {
+        "city": "Singapore",
+        "country": "Singapore",
+        "hotels": [
+          {
+            "hotel_id": 28,
+            "name": "Raffles Singapore",
+            "address": "1 Beach Rd, Singapore 189673",
+            "star_rating": "",
+            "latitude": 1.2943,
+            "longitude": 103.8545,
+            "url": "https://www.rafflessingapore.com/",
+            "image_url": "https://images.trvl-media.com/lodging/1000000/30000/20500/20409/cb2742c8.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+            "overview": "A world-renowned luxury hotel offering colonial-era charm, impeccable service, and the famous Singapore Sling cocktail.",
+            "price": "SG$950 per night"
+          }
+        ]
+      }
+    ]
+}
+ 
